@@ -1,11 +1,14 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Knowledges = () => {
   return (
-    <div>
+    <div className="container">
       <Header />
-      <h1>Ma page de Compétences</h1>
+      <main><h1>Ma page de Compétences</h1>
+      <Footer /></main>
+      
     </div>
   );
 };

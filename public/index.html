@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Fatima-Zohra ABID développeuse web" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <title>Fatima-Zohra ABID</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_ubaDpIefjiK4kDSp5tRvA");
+      })();
+    </script>
   </body>
 </html>

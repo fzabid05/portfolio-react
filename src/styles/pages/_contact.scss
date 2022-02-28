@@ -1,0 +1,16 @@
+section.information {
+  margin: 30px 5px;
+  text-align: center;
+
+  i {
+    font-size: larger;
+    margin-right: 10px;
+    color: $grey;
+  }
+}
+section.information div {
+  padding: 10px;
+}
+section.information div:hover {
+  color: $test3;
+}
