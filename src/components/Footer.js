@@ -1,7 +1,11 @@
 import React from "react";
 
 const Footer = () => {
-  return <footer>2022 - Zora</footer>;
+  return (
+    <footer>
+      <div>2022 &copy; Zora</div>
+    </footer>
+  );
 };
 
 export default Footer;

@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  width: 50px;
+
+  svg {
+    font-size: 2rem;
+  }
+  span {
+    opacity: 0;
+    position: relative;
+    left: 0px;
+    font-size: 0.5rem;
+  }
+  a.navActive span {
+    opacity: 1;
+    // transform: translateX(35px);
+  }
+  a.navActive svg {
+    transform: translateX(35px);
+  }
+}
+.navigation a {
+  padding: 10px;
+}
+@media screen and (max-width: 580px) {
+  .navigation {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+  }
+}

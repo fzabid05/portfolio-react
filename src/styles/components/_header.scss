@@ -11,8 +11,12 @@
   /* bottom: auto; */
   display: flex;
   align-items: center;
-  a.navActive {
+  a.navActive svg {
     color: white !important;
+    background-color: $test1;
+    padding: 0.3rem;
+    border-radius: 50%;
+    font-size: 2rem;
     &:hover {
       color: $gold !important;
     }
@@ -22,13 +26,14 @@
   .header {
     padding: 0;
     top: 0;
-    left: 0;
+    align-self: center;
+    // transform: translateX(-50%);
     height: 50px;
-    ul {
-      width: 100vw;
+    .navigation {
+      width: max-content;
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      gap: 0.8rem;
     }
   }
 }

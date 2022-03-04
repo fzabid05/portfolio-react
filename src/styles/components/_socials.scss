@@ -1,0 +1,21 @@
+.socials {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  .socialsIcon {
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    align-items: center;
+    &::after {
+      content: "";
+      width: 1px;
+      height: 2.2rem;
+      background-color: $test1;
+    }
+    svg:hover {
+      color: $grey;
+    }
+  }
+}

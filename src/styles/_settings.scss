@@ -37,11 +37,17 @@ a {
 a:visited {
   color: $black;
 }
+.btn {
+  background-color: $grey;
+  border-radius: 0.5rem;
+  padding: 1rem 0.5rem;
+}
 .container {
   background-image: linear-gradient(326deg, $test2 0%, $test6 74%);
   display: flex;
   min-height: 100vh;
   position: relative;
+  // text-align: center;
 }
 @media screen and (max-width: 580px) {
   .container {
@@ -52,3 +58,18 @@ main {
   padding: 50px 20px;
   margin: auto;
 }
+// /* -------------- Medium ------------------ */
+// @media screen and (max-width: 943px) {
+//   main {
+//     width: 70%;
+//     padding: 2.5rem !important;
+//   }
+// }
+
+// /* -------------- Small ------------------ */
+// @media screen and (max-width: 580px) {
+//   .main {
+//     width: 95%;
+//     padding: 2.5rem !important;
+//   }
+// }

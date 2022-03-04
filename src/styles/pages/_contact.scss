@@ -7,10 +7,11 @@ section.information {
     margin-right: 10px;
     color: $grey;
   }
-}
-section.information div {
-  padding: 10px;
-}
-section.information div:hover {
-  color: $test3;
+  & div {
+    padding: 10px;
+    &:hover a {
+      color: $grey;
+      transition: 0.5s;
+    }
+  }
 }
