@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 
 $font-1: "Merriweather", serif;
-$black: #1f101a;
+$primary-color: #ede9e2;
+$secondary-color: #ae8f63;
+$tertiary: #1f101a;
+$rounded: 0.2rem;
+$test: #c6b9a3;
+
 $red: #8b233f;
 $gray: #848889;
 $grey: #dfe0e2;
-$gold: #ae8f63;
-
 $test1: #201817;
 $test2: #645c5c;
 $test3: #6c645c;
@@ -32,15 +35,30 @@ li {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: $black;
+  color: $tertiary;
+  &:visited {
+    color: $tertiary;
+  }
+  &:hover {
+    color: $secondary-color;
+  }
 }
-a:visited {
-  color: $black;
+
+h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 .btn {
-  background-color: $grey;
-  border-radius: 0.5rem;
-  padding: 1rem 0.5rem;
+  background-color: $secondary-color;
+  border-radius: $rounded;
+  border: 1px solid $secondary-color;
+  padding: 0.8rem 0.5rem;
+  transition: 0.5s;
+  color: $primary-color;
+  &:hover {
+    background-color: transparent;
+    color: $secondary-color;
+  }
 }
 .container {
   background-image: linear-gradient(326deg, $test2 0%, $test6 74%);
@@ -73,3 +91,14 @@ main {
 //     padding: 2.5rem !important;
 //   }
 // }
+
+%boxShadow {
+  background: #ede9e2;
+  box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.637);
+  border-radius: $rounded;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 4px 10px darken($tertiary, 0.1%);
+  }
+}

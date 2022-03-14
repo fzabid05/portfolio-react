@@ -7,12 +7,10 @@ const Portfolio = () => {
   return (
     <div className="container">
       <Header />
-      <main>
-        <div className="portfolioContainer">
-          <ProjectList />
-        </div>
-        <Footer />
+      <main className="portfolioContainer">
+        <ProjectList />
       </main>
+      <Footer />
     </div>
   );
 };

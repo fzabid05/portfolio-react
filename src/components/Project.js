@@ -9,12 +9,20 @@ const Project = ({ project }) => {
       <h2>{project.title}</h2>
       <p>{project.description}</p>
       <div className="projectUrl">
-        <a className="btn" hrf={project.urlGithub}>
-          Github
-        </a>
-        <a className="btn" hrf={project.urlSite}>
-          Site Web
-        </a>
+        {project.urlGithub ? (
+          <a className="btn" hrf={project.urlGithub}>
+            Github
+          </a>
+        ) : (
+          ""
+        )}
+        {project.urlSite ? (
+          <a className="btn" hrf={project.urlSite}>
+            Site Web
+          </a>
+        ) : (
+          ""
+        )}
       </div>
     </article>
   );

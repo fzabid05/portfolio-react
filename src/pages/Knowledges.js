@@ -7,7 +7,7 @@ const Knowledges = () => {
     <div className="container">
       <Header />
       <main>
-        <h1>Ma page de Compétences</h1>
+        <h1>Compétences</h1>
         <section className="knowledges">
           <div className="knowledge">
             <h3>Langages</h3>
@@ -83,9 +83,8 @@ const Knowledges = () => {
             </div>
           </div>
         </section>
-
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 };

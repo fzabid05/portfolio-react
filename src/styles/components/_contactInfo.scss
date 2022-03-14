@@ -1,0 +1,27 @@
+section.information {
+  display: flex;
+  justify-content: space-between;
+  //   margin: 30px 5px;
+  //   text-align: center;
+  margin: 2.5rem 0rem;
+  i {
+    font-size: larger;
+    margin: 1rem;
+    color: $secondary-color;
+  }
+  & article {
+    @extend %boxShadow;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    &:hover a {
+      color: $secondary-color;
+      transition: 0.5s;
+    }
+  }
+}
+@media screen and (max-width: 580px) {
+  section.information {
+    flex-direction: column;
+  }
+}

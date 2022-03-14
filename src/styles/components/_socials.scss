@@ -1,21 +1,32 @@
 .socials {
   position: absolute;
   bottom: 10px;
-  left: 10px;
-
+  right: 20px;
   .socialsIcon {
     display: flex;
     gap: 0.8rem;
-    flex-direction: column;
     align-items: center;
     &::after {
       content: "";
-      width: 1px;
-      height: 2.2rem;
+      width: 9rem;
+      height: 1px;
       background-color: $test1;
     }
-    svg:hover {
-      color: $grey;
+    svg {
+      font-size: 1.5rem;
+
+      &:hover {
+        transition: 0.5s;
+      }
+    }
+  }
+}
+@media screen and (max-width: 580px) {
+  .socials {
+    right: 10px;
+    .socialsIcon::after {
+      content: "";
+      width: 2rem;
     }
   }
 }

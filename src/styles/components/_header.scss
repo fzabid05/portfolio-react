@@ -1,4 +1,4 @@
-.header {
+header {
   // background-color: $test2;
   height: 100vh;
   position: -webkit-sticky;
@@ -11,29 +11,14 @@
   /* bottom: auto; */
   display: flex;
   align-items: center;
-  a.navActive svg {
-    color: white !important;
-    background-color: $test1;
-    padding: 0.3rem;
-    border-radius: 50%;
-    font-size: 2rem;
-    &:hover {
-      color: $gold !important;
-    }
-  }
 }
 @media screen and (max-width: 580px) {
-  .header {
+  header {
     padding: 0;
-    top: 0;
-    align-self: center;
+    top: 0rem;
     // transform: translateX(-50%);
-    height: 50px;
-    .navigation {
-      width: max-content;
-      display: flex;
-      flex-direction: row;
-      gap: 0.8rem;
-    }
+    height: 6rem;
+    background-color: darken($primary-color, 20%);
+    z-index: 2;
   }
 }

@@ -1,12 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const NotFound = () => {
   return (
-    <div>
+    <div className="container">
       <Header />
-      <main>  <h1>Page 404</h1></main>
-    
+      <main className="notFound">
+        <h1>
+          Erreur <span>404</span>
+        </h1>
+        <p>Page non trouvée </p>
+      </main>
+      <Footer />
     </div>
   );
 };

@@ -16,10 +16,6 @@ const ContactForm = () => {
       return true;
     } else {
       mail.style.display = "block";
-      // mail.style.animation = "dongle 1s";
-      // setTimeout(() => {
-      //   mail.style.animation = "none";
-      // }, 1000);
       return false;
     }
   };
@@ -38,7 +34,7 @@ const ContactForm = () => {
     let formMess = document.querySelector(".form-message");
     formMess.innerHTML =
       "Message envoyé ! Je vous recontacterai dès que possible.";
-    formMess.style.background = "$test6";
+    formMess.style.background = "#ae8f63";
     formMess.style.opacity = "1";
 
     document.getElementById("name").classList.remove("error");

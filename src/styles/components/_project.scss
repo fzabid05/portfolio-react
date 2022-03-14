@@ -1,26 +1,17 @@
 .project {
-  //   background-color: red;
-  border: 1px solid transparent;
-  border-radius: 0.5rem;
+  @extend %boxShadow;
   width: 20rem;
-  background-color: $test5;
-  transition: 0.5s;
   padding: 0.3rem;
 
-  &:hover {
-    background-color: $test4;
-  }
   h2 {
     margin: 1.2rem 0 2rem;
-    color: $grey;
   }
   .projectImage {
-    border-radius: 0.5rem;
-    overflow: hidden;
     width: 90%;
-    margin: auto;
+    margin: 1rem auto;
     img {
       width: 100%;
+      border-radius: $rounded;
     }
   }
   .projectUrl {
