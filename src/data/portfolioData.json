@@ -35,4 +35,13 @@
     "description": "Portfolio bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
     "picture": "./images/parimisDesktop.jpg"
   }
+  {
+    "id": "4",
+    "title": "Game of thrones",
+    "languages": ["css", "React", "JavaScript"],
+    "urlGithub": "https://github.com/fzabid05/got-react",
+    "urlSite": "https://frosty-lumiere-4fa5cc.netlify.app",
+    "description": "Portfolio bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+    "picture": "./images/parimisDesktop.jpg"
+  }
 ]
