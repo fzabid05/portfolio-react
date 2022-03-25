@@ -1,5 +1,4 @@
 header {
-  // background-color: $test2;
   height: 100vh;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -8,7 +7,6 @@ header {
   position: sticky;
   padding: 10px;
   top: 0px;
-  /* bottom: auto; */
   display: flex;
   align-items: center;
 }
@@ -16,9 +14,8 @@ header {
   header {
     padding: 0;
     top: 0rem;
-    // transform: translateX(-50%);
     height: 6rem;
-    background-color: darken($primary-color, 20%);
+    background-color: $tertiary-color;
     z-index: 2;
   }
 }

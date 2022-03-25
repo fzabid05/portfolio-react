@@ -11,10 +11,12 @@ const Home = () => {
         <h1>Fatima-Zohra ABID</h1>
         <h2>Développeuse Web</h2>
         <div>
-          <spam>
-            <FiDownload />
-          </spam>
-          <spam> CV</spam>
+          <a href="./abid_fatima_zohra_developpeuse_web .pdf" download>
+            <spam>
+              <FiDownload />
+            </spam>
+            <spam>Cv</spam>
+          </a>
         </div>
       </main>
       <Footer />

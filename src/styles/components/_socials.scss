@@ -10,23 +10,32 @@
       content: "";
       width: 9rem;
       height: 1px;
-      background-color: $test1;
+      background-color: $tertiary-color;
     }
-    svg {
+    a {
       font-size: 1.5rem;
+      padding: 10px 2px;
 
       &:hover {
         transition: 0.5s;
+        transform: scale(1.1);
       }
     }
   }
 }
 @media screen and (max-width: 580px) {
   .socials {
-    right: 10px;
-    .socialsIcon::after {
-      content: "";
-      width: 2rem;
+    bottom: 30px;
+    right: 20px;
+    .socialsIcon {
+      line-height: 1rem;
+      // &::after {
+      //   content: "";
+      //   width: 2rem;
+      // }
+      svg {
+        font-size: 1rem;
+      }
     }
   }
 }

@@ -10,14 +10,14 @@ const Project = ({ project }) => {
       <p>{project.description}</p>
       <div className="projectUrl">
         {project.urlGithub ? (
-          <a className="btn" hrf={project.urlGithub}>
+          <a className="btn" target="_blank" href={project.urlGithub}>
             Github
           </a>
         ) : (
           ""
         )}
         {project.urlSite ? (
-          <a className="btn" hrf={project.urlSite}>
+          <a className="btn" target="_blank" href={project.urlSite}>
             Site Web
           </a>
         ) : (

@@ -7,7 +7,6 @@ const Knowledges = () => {
     <div className="container">
       <Header />
       <main>
-        <h1>Compétences</h1>
         <section className="knowledges">
           <div className="knowledge">
             <h3>Langages</h3>

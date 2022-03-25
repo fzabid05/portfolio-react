@@ -1,15 +1,18 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Socials = () => {
   return (
     <div className="socials">
       <div className="socialsIcon">
-        <a href="" target="_blank">
-          <AiFillGithub />
+        <a href="https://github.com/fzabid05" target="_blank">
+          <BsGithub />
         </a>
-        <a href="" target="_blank">
-          <AiFillLinkedin />
+        <a
+          href="https://www.linkedin.com/in/fatima-zohra-abid/"
+          target="_blank"
+        >
+          <BsLinkedin />
         </a>
       </div>
     </div>

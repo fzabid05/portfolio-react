@@ -4,18 +4,18 @@
     "title": "Parimis",
     "languages": ["css"],
     "urlGithub": "https://github.com/fzabid05/parimis",
-    "urlSite": "",
-    "description": "Parimis bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-    "picture": "./images/parimisDesktop.jpg"
+    "urlSite": "https://abid-fatima-zohra-parimis.netlify.app/",
+    "description": "Html - Css",
+    "picture": "./images/parimis2.jpg"
   },
   {
     "id": "2",
     "title": "Koala",
     "languages": ["css", "Php"],
-    "urlGithub": "",
+    "urlGithub": "https://github.com/FaZyiOne/projetswf3",
     "urlSite": "",
-    "description": "Koala bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-    "picture": "./images/parimisDesktop.jpg"
+    "description": "Html - Css - Bootstrap - Twig",
+    "picture": "./images/koalaDesktop2.jpg"
   },
   {
     "id": "3",
@@ -23,25 +23,25 @@
     "languages": ["css", "WordPress"],
     "urlGithub": "",
     "urlSite": "http://baoba.ag/",
-    "description": "Baoba bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-    "picture": "./images/parimisDesktop.jpg"
+    "description": "Wordpress",
+    "picture": "./images/baoba.jpg"
   },
   {
     "id": "4",
-    "title": "Portfolio",
-    "languages": ["css", "React", "JavaScript"],
+    "title": "Portfolio v.1",
+    "languages": ["css", "JavaScript"],
     "urlGithub": "https://github.com/fzabid05/portfolio2",
-    "urlSite": "",
-    "description": "Portfolio bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-    "picture": "./images/parimisDesktop.jpg"
+    "urlSite": "https://abid-fatima-zohra-portfoliov1.netlify.app/",
+    "description": "Html - Css - JavaScript",
+    "picture": "./images/portfoliov1.jpg"
   },
   {
     "id": "4",
     "title": "Game of thrones",
     "languages": ["css", "React", "JavaScript"],
     "urlGithub": "https://github.com/fzabid05/got-react",
-    "urlSite": "https://frosty-lumiere-4fa5cc.netlify.app",
-    "description": "Portfolio bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-    "picture": "./images/parimisDesktop.jpg"
+    "urlSite": "https://abid-fatima-zohra-got.netlify.app/",
+    "description": "React - Chaqura UI",
+    "picture": "./images/got.jpg"
   }
 ]

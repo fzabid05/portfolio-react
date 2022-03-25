@@ -1,8 +1,6 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  // // background-color: rgba(0, 0, 0, 0.3);
-  // border-radius: 2rem;
   width: 50px;
   padding: 2rem 0rem;
 
@@ -12,61 +10,49 @@
   }
   span {
     opacity: 0;
-    // position: relative;
     font-size: 0.7rem;
     font-weight: 400;
   }
-  a:hover {
-    color: initial;
+  a {
+    padding: 10px 0px;
+    flex-basis: 23%;
+    text-align: center;
+    &:hover {
+      color: initial;
+    }
   }
-  // a.navActive svg {
-  //   color: white !important;
-  //   background-color: $test1;
-  //   padding: 0.3rem;
-  //   border-radius: 50%;
-  //   font-size: 2rem;
-  // }
+  a.navActive {
+    color: $primary-color;
+  }
   a.navActive span,
   a:hover span {
     opacity: 1;
   }
+  a.navActive svg,
+  .navigation a:hover svg {
+    font-size: 3rem;
+    transform: rotate(90deg);
+    transition: 0.5s;
+  }
 }
-.navigation a {
-  padding: 10px 0px;
-}
+
+/* -------------------------- Medium - small --------------------- */
 @media screen and (max-width: 580px) {
   .navigation {
-    // width: max-content;
     display: flex;
     flex-direction: row;
     gap: 0.8rem;
     justify-content: space-between;
     width: 350px;
     margin: 0 auto;
-  }
 
-  /* ---- test ----- */
-  .navigation a {
-    position: relative;
+    a {
+      position: relative;
+      color: $secondary-color;
+    }
   }
   a.navActive span {
     position: absolute;
     bottom: 0px;
   }
-}
-
-/* ------------------- test ---------------------- */
-
-a.navActive svg,
-.navigation a:hover svg {
-  font-size: 3rem;
-  transform: rotate(90deg);
-  transition: 0.5s;
-}
-.navigation a {
-  flex-basis: 23%;
-  text-align: center;
-}
-a.navActive {
-  color: $primary-color;
 }

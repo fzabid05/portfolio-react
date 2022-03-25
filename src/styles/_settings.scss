@@ -3,19 +3,10 @@
 $font-1: "Merriweather", serif;
 $primary-color: #ede9e2;
 $secondary-color: #ae8f63;
-$tertiary: #1f101a;
+$tertiary-color: #1f101a;
 $rounded: 0.2rem;
-$test: #c6b9a3;
 
 $red: #8b233f;
-$gray: #848889;
-$grey: #dfe0e2;
-$test1: #201817;
-$test2: #645c5c;
-$test3: #6c645c;
-$test4: #7f7875;
-$test5: #948c84;
-$test6: #ccbdb7;
 * {
   margin: 0;
   padding: 0;
@@ -35,9 +26,9 @@ li {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: $tertiary;
+  color: $tertiary-color;
   &:visited {
-    color: $tertiary;
+    color: $tertiary-color;
   }
   &:hover {
     color: $secondary-color;
@@ -61,11 +52,10 @@ h1 {
   }
 }
 .container {
-  background-image: linear-gradient(326deg, $test2 0%, $test6 74%);
+  background-image: linear-gradient(326deg, #645c5c 0%, #ccbdb7 74%);
   display: flex;
   min-height: 100vh;
   position: relative;
-  // text-align: center;
 }
 @media screen and (max-width: 580px) {
   .container {
@@ -73,24 +63,9 @@ h1 {
   }
 }
 main {
-  padding: 50px 20px;
+  padding: 2rem 0rem 6rem;
   margin: auto;
 }
-// /* -------------- Medium ------------------ */
-// @media screen and (max-width: 943px) {
-//   main {
-//     width: 70%;
-//     padding: 2.5rem !important;
-//   }
-// }
-
-// /* -------------- Small ------------------ */
-// @media screen and (max-width: 580px) {
-//   .main {
-//     width: 95%;
-//     padding: 2.5rem !important;
-//   }
-// }
 
 %boxShadow {
   background: #ede9e2;
@@ -99,6 +74,6 @@ main {
   transition: 0.5s;
   &:hover {
     transform: scale(1.01);
-    box-shadow: 0px 4px 10px darken($tertiary, 0.1%);
+    box-shadow: 0px 4px 10px darken($tertiary-color, 0.1%);
   }
 }

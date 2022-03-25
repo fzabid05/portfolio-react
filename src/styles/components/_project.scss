@@ -1,10 +1,11 @@
 .project {
   @extend %boxShadow;
-  width: 20rem;
+  max-width: 20rem;
   padding: 0.3rem;
 
   h2 {
     margin: 1.2rem 0 2rem;
+    color: $secondary-color;
   }
   .projectImage {
     width: 90%;
